@@ -12675,11 +12675,6 @@ AT+UGPIOC=16,2</text>
 VCC Range: 3.2-4.2V
 Max current: 490mA (Peak Cat M1 Tx)
 Avg. current: 190mA (Cat M1 Tx/Rx)</text>
-<text x="30.48" y="38.1" size="1.27" layer="97" rot="MR180">If ANT-DET is used:
-R8 = 10k
-C16 = 27pF
-L1 = 68nH
-C19 = 33pF</text>
 <text x="-121.92" y="50.8" size="1.778" layer="91">Note: Original schematic does not have
 these level shifted down from Arduino.</text>
 <text x="-121.92" y="-38.1" size="2.54" layer="94">Level Shifting</text>

@@ -12626,20 +12626,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="25.4" y1="-12.7" x2="35.56" y2="-12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="D-" class="0">
-<segment>
-<pinref part="J1" gate="J1" pin="D-"/>
-<wire x1="-81.28" y1="-10.16" x2="-78.74" y2="-10.16" width="0.1524" layer="91"/>
-<label x="-78.74" y="-10.16" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="D+" class="0">
-<segment>
-<pinref part="J1" gate="J1" pin="D+"/>
-<label x="-63.5" y="-12.7" size="1.778" layer="95" xref="yes"/>
-<wire x1="-81.28" y1="-12.7" x2="-63.5" y2="-12.7" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$12" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="O"/>

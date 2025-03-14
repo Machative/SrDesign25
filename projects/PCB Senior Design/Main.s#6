@@ -12997,7 +12997,7 @@ Default: JP8 (chip antenna)</text>
 1.7~2.7GHz: 3.8 dBi</text>
 <text x="-20.32" y="-25.4" size="1.27" layer="97">Must be enabled with:
 AT+UGPIOC=16,2</text>
-<text x="-114.3" y="58.42" size="1.778" layer="97">SARA-R410M-02B
+<text x="-124.46" y="73.66" size="1.778" layer="97">SARA-R410M-02B
 ==============
 VCC Range: 3.2-4.2V
 Max current: 490mA (Peak Cat M1 Tx)

@@ -13012,6 +13012,7 @@ these level shifted down from Arduino.</text>
 <text x="-121.92" y="-38.1" size="2.54" layer="94">Level Shifting</text>
 <text x="0" y="-73.66" size="1.778" layer="91">GPS Comms</text>
 <wire x1="17.78" y1="-33.02" x2="-127" y2="-33.02" width="0.2032" layer="97" style="longdash"/>
+<text x="-121.92" y="38.1" size="1.778" layer="91">Assuming they can take 3.3V.</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="-127" y="-91.44" smashed="yes"/>

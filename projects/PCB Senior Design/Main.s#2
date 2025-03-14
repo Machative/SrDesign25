@@ -12178,14 +12178,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="38.1" y="15.24" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="PWR_ON" class="0">
+<net name="PWR-CELL" class="0">
 <segment>
 <pinref part="ZU4" gate="G$1" pin="(T1)PD5"/>
 <wire x1="17.78" y1="-15.24" x2="30.48" y2="-15.24" width="0.1524" layer="91"/>
 <label x="30.48" y="-15.24" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="RESET_N" class="0">
+<net name="RST-CELL" class="0">
 <segment>
 <pinref part="ZU4" gate="G$1" pin="(AIN0)PD6"/>
 <wire x1="17.78" y1="-12.7" x2="53.34" y2="-12.7" width="0.1524" layer="91"/>
@@ -13229,20 +13229,6 @@ for keepout area.</text>
 <junction x="63.5" y="58.42"/>
 </segment>
 </net>
-<net name="RESET_N" class="0">
-<segment>
-<pinref part="U6" gate="G$1" pin="RESET_N"/>
-<wire x1="-93.98" y1="43.18" x2="-58.42" y2="43.18" width="0.1524" layer="91"/>
-<label x="-93.98" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="PWR_ON" class="0">
-<segment>
-<pinref part="U6" gate="G$1" pin="PWR_ON"/>
-<wire x1="-93.98" y1="48.26" x2="-58.42" y2="48.26" width="0.1524" layer="91"/>
-<label x="-93.98" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="N$21" class="0">
 <segment>
 <pinref part="C19" gate="G$1" pin="2"/>
@@ -13301,6 +13287,20 @@ for keepout area.</text>
 <pinref part="U4" gate="G$1" pin="SCL_B"/>
 <wire x1="-7.62" y1="-68.58" x2="-2.54" y2="-68.58" width="0.1524" layer="91"/>
 <label x="-2.54" y="-68.58" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="RST-CELL" class="0">
+<segment>
+<pinref part="U6" gate="G$1" pin="RESET_N"/>
+<wire x1="-93.98" y1="43.18" x2="-58.42" y2="43.18" width="0.1524" layer="91"/>
+<label x="-93.98" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="PWR-CELL" class="0">
+<segment>
+<pinref part="U6" gate="G$1" pin="PWR_ON"/>
+<wire x1="-93.98" y1="48.26" x2="-58.42" y2="48.26" width="0.1524" layer="91"/>
+<label x="-93.98" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
