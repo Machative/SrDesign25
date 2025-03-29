@@ -2190,6 +2190,77 @@ Low Energy Module</text>
 <pin name="S1" x="12.7" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
 <pin name="O1" x="7.62" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
 </symbol>
+<symbol name="RGB_LED">
+<wire x1="0" y1="1.27" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-2.032" x2="2.159" y2="-3.429" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="-1.905" x2="3.302" y2="-3.302" width="0.1524" layer="94"/>
+<pin name="A" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<polygon width="0.1524" layer="94">
+<vertex x="2.159" y="-3.429"/>
+<vertex x="1.27" y="-3.048"/>
+<vertex x="1.778" y="-2.54"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="3.302" y="-3.302"/>
+<vertex x="2.413" y="-2.921"/>
+<vertex x="2.921" y="-2.413"/>
+</polygon>
+<wire x1="0" y1="-3.81" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="0" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-3.81" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="0" y1="-3.81" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-7.112" x2="2.159" y2="-8.509" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="-6.985" x2="3.302" y2="-8.382" width="0.1524" layer="94"/>
+<pin name="A1" x="-5.08" y="-5.08" visible="off" length="short" direction="pas"/>
+<polygon width="0.1524" layer="94">
+<vertex x="2.159" y="-8.509"/>
+<vertex x="1.27" y="-8.128"/>
+<vertex x="1.778" y="-7.62"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="3.302" y="-8.382"/>
+<vertex x="2.413" y="-8.001"/>
+<vertex x="2.921" y="-7.493"/>
+</polygon>
+<wire x1="0" y1="6.35" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="0" y2="3.81" width="0.254" layer="94"/>
+<wire x1="2.54" y1="6.35" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="3.81" width="0.254" layer="94"/>
+<wire x1="0" y1="6.35" x2="0" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="3.81" width="0.254" layer="94"/>
+<wire x1="0.762" y1="3.048" x2="2.159" y2="1.651" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="3.175" x2="3.302" y2="1.778" width="0.1524" layer="94"/>
+<pin name="A2" x="-5.08" y="5.08" visible="off" length="short" direction="pas"/>
+<polygon width="0.1524" layer="94">
+<vertex x="2.159" y="1.651"/>
+<vertex x="1.27" y="2.032"/>
+<vertex x="1.778" y="2.54"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="3.302" y="1.778"/>
+<vertex x="2.413" y="2.159"/>
+<vertex x="2.921" y="2.667"/>
+</polygon>
+<text x="-2.54" y="5.08" size="1.778" layer="94">R</text>
+<text x="-2.54" y="0" size="1.778" layer="94">G</text>
+<text x="-2.54" y="-5.08" size="1.778" layer="94">B</text>
+<wire x1="-2.54" y1="5.08" x2="0" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<pin name="P$1" x="7.62" y="0" length="short" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="SARA-R4" prefix="U">

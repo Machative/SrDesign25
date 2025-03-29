@@ -2158,7 +2158,8 @@ Low Energy Module</text>
 <wire x1="-1.905" y1="-3.175" x2="1.905" y2="3.175" width="0.254" layer="94"/>
 <wire x1="1.905" y1="3.175" x2="0.635" y2="2.54" width="0.254" layer="94"/>
 <wire x1="1.905" y1="3.175" x2="1.905" y2="1.905" width="0.254" layer="94"/>
-<text x="-5.08" y="5.08" size="1.778" layer="96">&gt;VALUE</text>
+<text x="0" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-7.62" y="5.08" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 <symbol name="DPDT_SWITCH">
 <wire x1="0" y1="-3.175" x2="0" y2="3.048" width="0.254" layer="94"/>
@@ -2981,6 +2982,17 @@ interface settings to easily fit to customer applications.&lt;/p&gt;</descriptio
 <connect gate="G$1" pin="S" pad="P$3"/>
 <connect gate="G$1" pin="S1" pad="P$4"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RGBLED_THRU">
+<gates>
+</gates>
+<devices>
+<device name="">
 <technologies>
 <technology name=""/>
 </technologies>
